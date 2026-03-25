@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Text Analyzer</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div>
+            <p>Enter text</p>
+            <textarea id="input"></textarea>
+        </div>
+        <div>
+            <button id="analyze" onclick="analyzeText()">Analyze Text</button>
+        </div>
+        
+        <p>Output</p>
+        <div id="output-div">
+            <p class="label">Reversed text</p>
+            <textarea id="output" readonly></textarea>
+            <p class="label" id="char"></p>
+            <p class="label" id="words"></p>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

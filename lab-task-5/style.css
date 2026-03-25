@@ -1,0 +1,29 @@
+#input {
+    height: 150px;
+    width: 1000px;
+}
+
+#analyze {
+    margin-top: 20px;
+}
+
+#output-div {
+    margin-top: 20px;
+    height: 270px;
+    width: 1050px;
+    border: 1px dashed black;
+
+}
+
+#output {
+    margin-top: 20px;
+    margin-left: 25px;
+    height: 150px;
+    width: 1000px;
+
+}
+
+.label {
+    margin-left: 25px;
+    margin-bottom: -10px;
+}

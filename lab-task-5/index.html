@@ -6,20 +6,19 @@
     </head>
     <body>
         <div>
-            <p>Enter your text</p>
-            <textarea id="text"></textarea>
+            <p>Enter text</p>
+            <textarea id="input"></textarea>
         </div>
         <div>
-            <button id="button" onclick="analyzeText()">Analyze Text</button>
+            <button id="analyze" onclick="analyzeText()">Analyze Text</button>
         </div>
         
         <p>Output</p>
-        <div id="result-div">
-            <p class="text" id="totalChar">Total Characters:</p>
-            <p class="text" id="totalWords">Total Words:</p>
-
-            <p class="text">Reversed text</p>
-            <textarea id="result" readonly></textarea>
+        <div id="output-div">
+            <p class="label">Reversed text</p>
+            <textarea id="output" readonly></textarea>
+            <p class="label" id="char"></p>
+            <p class="label" id="words"></p>
         </div>
 
         <script src="script.js"></script>

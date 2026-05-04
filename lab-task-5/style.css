@@ -1,34 +1,29 @@
-#text 
-{
+#input {
     height: 150px;
-    width: 700px;
+    width: 1000px;
 }
 
-#button 
-{
+#analyze {
     margin-top: 20px;
 }
 
-#result-div 
-{
+#output-div {
     margin-top: 20px;
     height: 270px;
-    width: 750px;
-    border: 1px solid black;
+    width: 1050px;
+    border: 1px dashed black;
 
 }
 
-.text 
-{
+#output {
+    margin-top: 20px;
+    margin-left: 25px;
+    height: 150px;
+    width: 1000px;
+
+}
+
+.label {
     margin-left: 25px;
     margin-bottom: -10px;
 }
-
-#result 
-{
-    height: 150px;
-    width: 700px;
-    margin-top: 20px;
-    margin-left: 25px;
-}
-

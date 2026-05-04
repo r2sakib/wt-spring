@@ -1,15 +1,20 @@
-function analyzeText() 
-{
-    var text = document.getElementById("text").value;
-    var length = text.length;
-    var words = text.split(" ")
+function analyzeText() {
+    var input = document.getElementById("input").value;
+
+    var length = input.length;
+    var words = input.split(" ")
     var wordCount = words.length;
-    var reversedText = text.split(' ').reverse().join(' ');
-    var totalChar = document.getElementById("totalChar");
-    totalChar.innerHTML = "Total Characters: " + length;
-    var totalWords = document.getElementById("totalWords")
-    totalWords.innerHTML = "Total Words: " + wordCount; 
-    var result = document.getElementById("result");
-    result.innerHTML = reversedText;
-    result.setAttribute("src", "")
+
+    var inputReversed = input.split(' ').reverse().join(' ');
+
+    var char = document.getElementById("char");
+    char.innerHTML = "Total Characters: " + length;
+
+    var words = document.getElementById("words")
+    words.innerHTML = "Total Words: " + wordCount; 
+
+    var output = document.getElementById("output");
+    output.innerHTML = inputReversed;
+
+
 }

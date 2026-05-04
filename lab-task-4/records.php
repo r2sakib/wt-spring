@@ -51,6 +51,7 @@
         echo "</table>";
     } else {
         echo "<p>No records found.</p>";
+        
     }
 
     mysqli_close($conn);

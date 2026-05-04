@@ -95,6 +95,7 @@
                 // else if ($city != "Dhaka" || $city != "Sirajganj") {
                 //     $cityErr = "Only Dhaka and Sirajganj allowed";
                 // }
+                
         }
  
      
@@ -143,7 +144,7 @@
     </form>
 
     <a href="records.php" class="btn">View Records</a>
-    
+
  
     <?php if ($success) echo "<p class='success'>$success</p>"; ?>
  
